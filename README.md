@@ -49,7 +49,7 @@ Having completed the analysis within this project, I was able to draw a number o
 
 Using the SVC model as a baseline, I tested training periods of 1 month, 3 months, and 6 months. Amongst these different tests, the overall cumulative returns became larger and larger in comparison to the actual returns when the training period was increased. The following graphs show the results. 
 
-[1 Month Training Period](SVC_Window_Testing/svc_returns_comparison_1month_plot.png)
+[1 Month Training Period](SVC Window Testing/svc_returns_comparison_1month_plot.png)
 
 
 ---
