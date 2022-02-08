@@ -49,12 +49,27 @@ Having completed the analysis within this project, I was able to draw a number o
 
 Using the SVC model as a baseline, I tested training periods of 1 month, 3 months, and 6 months. Amongst these different tests, the overall cumulative returns became larger and larger in comparison to the actual returns when the training period was increased. The following graphs show the results. 
 
+1 Month Training Period
 ![1 Month Training Period](SVC_Window_Testing/svc_returns_comparison_1month_plot.png)
 
-[3 Month Training Period](SVC_Window_Testing/svc_returns_comparison_3month_plot.png)
+3 Month Training Period
+![3 Month Training Period](SVC_Window_Testing/svc_returns_comparison_3month_plot.png)
 
-[6 Month Training Period](SVC_Window_Testing/svc_returns_comparison_6month_plot.png)
+6 Month Training Period
+![6 Month Training Period](SVC_Window_Testing/svc_returns_comparison_6month_plot.png)
 
+
+### Using Shorter Periods for the Short SMA and Longer Periods for the Long SMA Produce Better Cumulative Returns
+
+Again using the SVC model with a 6 month training window as a baseline, I tested a number of different SMA period combinations to understand how they could imporve the models performance. These tests showed that lowering the periods for the short SMA and increasing the periods for the long SMA produced significantly better results. These different testing periods and results can be seen in the following folder:
+
+[SVC SMA Testing](SVC_SMA_Testing)
+
+### AdaBoost Classifier Provided the Best Cumulative Returns
+
+Finally, having tested different parameters, I tested 4 different models to determine which one could produce the best cumulative returns over the actual cumulative returns. Using a baseline of a 3 month training period and a short SMA window of 4 and a long SMA window of 100, I concluded that the AdaBoost Classifier was able to produce the best cumulative returns. The following graph shows the different models as well as the actual cumulative returns.
+
+![Model Testing](model_returns_testing.png)
 
 ---
 
