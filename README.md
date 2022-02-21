@@ -2,7 +2,7 @@
 
 ## Algorithmic Trading Model using Machine Learning 
 
-The goal of this project was to build an effective algorithmic trading model for an emrging markets ETF. The goal of the model is to most accurately predict when to buy long or sell short. The trading signals are based off of Standard Moving Average (SMA) calculations over both short and long periods and the times that these cross. With that strategy determined, a number of different supervised machine learning models are trained and tested to see if any could better predict the trading signals. The models tested were the Support Vector Classification (SVC), Linear Regression, Decision Tree Classifier, and AdaBoost Classifier models contained within the Scikit-Learn Module. 
+The goal of this project was to build an effective algorithmic trading model for an emerging markets ETF. The goal of the model is to most accurately predict when to buy long or sell short. The trading signals are based off of Standard Moving Average (SMA) calculations over both short and long periods and the times that these cross. With that strategy determined, a number of different supervised machine learning models are trained and tested to see if any could better predict the trading signals. The models tested were the Support Vector Classification (SVC), Linear Regression, Decision Tree Classifier, and AdaBoost Classifier models contained within the Scikit-Learn Module. 
 
 ---
 
